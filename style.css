@@ -1,0 +1,311 @@
+  /* General Body Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    display: flex;
+    
+
+    }
+
+nav a {
+    
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+
+}
+
+nav a:hover {
+    background-color: #2E7D32;
+}
+
+/* Header Styles */
+header {
+    background-image: url('https://images.jdmagicbox.com/quickquotes/listicle/listicle_1692252118569_u4gpk_847x400.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.blog-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.blog-post .summary {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.blog-post .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-post img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-width: 386px;
+    width: 100%;
+}
+
+.blog-post img:hover {
+    transform: scale(1.05);
+}
+
+.blog-post .content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.blog-post iframe:hover {
+    transform: scale(1.05);
+
+}    
+    .blog-post iframe {
+    border-radius: 8px;
+    width: 100%;
+    max-width:560px ;
+
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #F9F9F9;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+.about-me h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #4CAF50;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.about-me:hover {
+    background-color: #e7ffe6;
+}
+
+/* Contact Form */
+/* Contact Section Styles */
+.contact-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Heading Style for Contact Section */
+.contact-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #4CAF50;
+}
+
+/* Email Link Styling */
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.contact-info a:hover {
+    color: #2E7D32;
+}
+
+/* Social Media Icons Section */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.social-icons i {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}    
+
+.social-icons a:hover {
+    color: #4CAF50;
+}
+
+.social-icons i:hover {
+    color: #4CAF50;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2E7D32;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2E7D32;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer p, footer a, {
+    color: #FFFFFF;
+}
+
+footer i:hover {
+    color: #4CAF50;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+footer .social-icons i {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .blog-post h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .blog-post h2 {
+        font-size: 20px;
+    }
+}
